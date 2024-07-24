@@ -1,4 +1,4 @@
-> Kubectl est installé de base sur l'environment killercoda.
+> kubectl est installé de base sur l'environment Killercoda.
 <br>
 
 ## 1/ Vérifier la présence de kubectl et sa version

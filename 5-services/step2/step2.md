@@ -1,7 +1,10 @@
 ## Exercice
 Le service n'est actuellement pas fonctionnel. Il faut trouver la cause, et réparer celui-ci.  
 Il semble qu'il n'y ait pas de endpoint sur notre service.  
-Pour pourvoir vérifier cela, utilier la commande : `kubectl get endpoints monolith`.  
+Pour pourvoir vérifier cela, utilier la commande :
+```
+kubectl get endpoints monolith
+```{{exec}}
 
 Pour vous aider, voici deux commandes afin de trouver ce qu'il manque:
 1. Lister les selectors de mon service: 

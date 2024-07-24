@@ -1,7 +1,7 @@
-> Un fichier monilith.yaml est présent à la racine du scénario.
+> Un fichier monolith.yaml est présent à la racine du scénario.
 <br>
 
-## 1/ Explorer le fichier `monilith.yaml`
+## 1/ Explorer le fichier `monolith.yaml`
 Afficher le contenu du fichier
 ```
 cat monolith.yaml

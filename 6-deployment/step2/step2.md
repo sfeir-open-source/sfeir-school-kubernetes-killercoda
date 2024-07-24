@@ -1,6 +1,9 @@
 ## Exercices
 Le déploiement du frontend est en échec.  
-Corriger celui-ci avec la commande `kubectl edit deployment frontend`
+Corriger celui-ci avec la commande
+```
+kubectl edit deployment frontend
+```{{exec}}
 
 # Question ?
 Il existe une autre méthode pour corriger le déploiement (déclarative)  

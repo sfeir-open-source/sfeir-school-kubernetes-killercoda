@@ -2,7 +2,7 @@
 <br>
 
 ## 1/ Decortiquer le fichier `secure-monolith.yaml`
-Dans un premier temps, avant de déployer le pod secure-monolith, nous allons essayé de comprendre son contenu.  
+Dans un premier temps, avant de déployer le pod secure-monolith, nous allons essayer de comprendre son contenu.  
 Afficher le contenu du fichier.
 
 ```
@@ -10,8 +10,8 @@ cat secure-monolith.yaml
 ```{{exec}}
 
 ## Questions ?
-Comment le secret est injecté dans le pod ?  
-Comment le configmap est injecté dans le pod ?  
+Comment le secret est-il injecté dans le pod ?  
+Comment le configmap est-il injecté dans le pod ?  
 Ecrire dans le fichier `/tmp/res-step3` le nom du secret et le nom de la configmap.  
 > vous pouvez utiliser la commande `echo -e "<mon secret>\n<ma configmap>" >> /tmp/res-step3`
 

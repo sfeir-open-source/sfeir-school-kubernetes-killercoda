@@ -1,5 +1,5 @@
 ## 4/ Interagir avec le Pod
-Il est possible de créer un tunnel entre un cluster kubernetes et sa machine locale, avec la commande `kubectl port foward`
+Il est possible de créer un tunnel entre un cluster Kubernetes et sa machine locale, avec la commande `kubectl port foward`
 
 KillerCoda utilise un principe d'affichage au travers d'une page web, mais le principe reste le même.
 

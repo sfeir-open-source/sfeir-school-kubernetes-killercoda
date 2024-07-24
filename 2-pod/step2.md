@@ -6,12 +6,12 @@ Avec l'aide de kubectl, nous allons retrouver des informations sur le pod préc�
 kubectl get pod -o wide
 ```{{exec}}
 
-### Sur quel node s'exectute le pod ?
+### Sur quel node s'execute le pod ?
 ```
 kubectl get pod -o wide
 ```{{exec}}
 
-### Quelle est l'image qui est lancé à l'intérieur du pod ?
+### Quelle est l'image qui est lancée à l'intérieur du pod ?
 ```
 kubectl describe pod monolith
 ```{{exec}}

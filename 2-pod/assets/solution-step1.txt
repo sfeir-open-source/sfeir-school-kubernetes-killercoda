@@ -2,7 +2,7 @@ Le nom de l'image qui est lancée dans le pod peut être trouvé de plusieurs ma
 Il est possible d'afficher le manifest et de chercher la ligne qui contient image: avec grep
 
 controlplane $ grep 'image:' monolith.yaml 
-      image: busybox:1.37.0
+      image: ghcr.io/alhossril/monolith:1.0.0
 
 Il est aussi possible de describe le pod
 k describe pod monolith
@@ -11,4 +11,4 @@ Chercher la ligne image:
 
 Ou encore, il est possible d'utiliser le jsonpath
 k get pod monolith -o jsonpath='{.spec.containers[*].image}'
-image: busybox:1.37.0
+image: ghcr.io/alhossril/monolith:1.0.0

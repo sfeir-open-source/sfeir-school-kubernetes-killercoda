@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: monolith
+  name: busybox
   labels:
-    app: monolith
+    app: busybox
 spec:
   containers:
     - name: monolith
@@ -19,5 +19,5 @@ spec:
           containerPort: 81
       resources:
         limits:
-          cpu: 0.05
+          cpu: "100m"
           memory: "10Mi"

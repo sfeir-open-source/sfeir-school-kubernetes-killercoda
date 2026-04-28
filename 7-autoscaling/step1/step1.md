@@ -12,7 +12,7 @@ kubectl expose deployment/hpa-example --port 80
 ## 2/ Créer le HorizontalPodAutoscaler sur le déploiement
 La commande suivante permet de mettre automatiquement le déploiement à l'échelle, en fonction de la charge CPU
 ```
-kubectl autoscale deployment hpa-example --cpu-percent=50 --min=1 --max=2
+kubectl autoscale deployment hpa-example --cpu=50% --min=1 --max=2
 ```{{exec}}
 
 # Question ? 

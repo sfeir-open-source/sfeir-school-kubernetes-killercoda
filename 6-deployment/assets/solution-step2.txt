@@ -1,7 +1,7 @@
 Le déploiement possède une image avec un tag non valide
-  image: nginx:<changeme> #mettre: nginx:1.9.14
+  image: nginx:<changeme> #mettre: nginx:1.12.0
 
-Il est possible d'utiliser un outil tel que vim pour remplacer nginx:<changeme> en nginx:1.9.14
+Il est possible d'utiliser un outil tel que vim pour remplacer nginx:<changeme> en nginx:1.12.0
 
 Pour appliquer le changement d'un fichier yaml, utiliser kubectl apply -f frontend.yaml
 

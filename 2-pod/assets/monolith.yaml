@@ -6,12 +6,12 @@ metadata:
     app: busybox
 spec:
   containers:
-    - name: busybox
-      image: busybox:1.37.0
-      command:
-        - "sh"
-        - "-c"
-        - "while true; do sleep 6000; done"
+    - name: monolith
+      image: ghcr.io/alhossril/monolith:1.0.0
+      args:
+        - "-http=0.0.0.0:80"
+        - "-health=0.0.0.0:81"
+        - "-secret=secret"
       ports:
         - name: http
           containerPort: 80

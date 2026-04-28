@@ -18,7 +18,7 @@ spec:
         - name: "tls-certs"
           mountPath: "/etc/tls"
     - name: monolith
-      image: "ghcr.io/alhossril/monolith:1.0.0"
+      image: ghcr.io/alhossril/monolith:1.0.1
       ports:
         - name: http
           containerPort: 80

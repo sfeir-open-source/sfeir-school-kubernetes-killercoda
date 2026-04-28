@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: hello
-          image: "ghcr.io/alhossril/monolith:1.0.0"
+          image: ghcr.io/alhossril/monolith:1.0.1
           ports:
             - name: http
               containerPort: 80

@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
     - name: monolith
-      image: ghcr.io/alhossril/monolith:1.0.0
+      image: ghcr.io/alhossril/monolith:1.0.1
       args:
         - "-http=0.0.0.0:80"
         - "-health=0.0.0.0:81"
@@ -19,5 +19,5 @@ spec:
           containerPort: 81
       resources:
         limits:
-          cpu: "100m"
+          cpu: 0.05
           memory: "10Mi"

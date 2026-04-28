@@ -15,12 +15,12 @@ Comment est configurée la sonde liveness ?
 Il est possible à l'aide d'un appel sur l'api du pod de forcer le passage à failed de la readiness.  
 Forward de l'api vers le terminal
 ```
-kubectl port-forward healthy-monolith 10081:81 &
+kubectl port-forward healthy-monolith 10080:80 &
 ```{{exec}}
 
 Passage de la readiness à failed
 ```
-curl http://127.0.0.1:10081/readiness/status
+curl http://127.0.0.1:10080/readiness/status
 ```{{exec}}
 
 Vérfier l'état du pod avec la commande describe : 
@@ -31,7 +31,7 @@ kubectl describe pods healthy-monolith
 ## 5/ Tester la liveness
 Nous allons faire pareil avec la liveness
 ```
-curl http://127.0.0.1:10081/healthz/status
+curl http://127.0.0.1:10080/healthz/status
 ```{{exec}}
 
 Que se passe t'il quand la liveness est KO ? 
